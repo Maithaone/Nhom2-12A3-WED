@@ -26,12 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 icon.classList.remove('fa-play');
                 icon.classList.add('fa-pause');
                 this.style.backgroundColor = '#00B894';
-                // Ở đây có thể thêm code để phát nhạc thực sự
             } else {
                 icon.classList.remove('fa-pause');
                 icon.classList.add('fa-play');
                 this.style.backgroundColor = '#D63031';
-                // Ở đây có thể thêm code để dừng nhạc
             }
         });
     });
